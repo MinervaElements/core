@@ -4,6 +4,9 @@
   --w-screen: 100vh;
   --h-full: 100%;
   --h-screen: 100vh;
+  --fs-semibold: 600;
+  --fs-bold: 700;
+  --fs-extrabold: 800;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -37,4 +40,8 @@ a{
  /* 2xl */
 @media (min-width: 1536px) { 
 
+}
+
+.btn{
+  padding: .5rem 1rem .5rem 1rem;
 }

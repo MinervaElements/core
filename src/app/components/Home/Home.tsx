@@ -1,6 +1,9 @@
+import Pricing from "./Pricing/Pricing"
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Pricing/>
+    </div>
   )
 }

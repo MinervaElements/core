@@ -1,0 +1,59 @@
+.plans-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.box-plans{
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+}
+.box-pricing-info{
+  -webkit-box-shadow: 1px 1px 11px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 11px -1px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 11px -1px rgba(0,0,0,0.75);
+  display:flex;
+  padding: 1.5rem 2.1rem 1.5rem 2.1rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+  top: -3rem;
+  border-radius: 0.75rem;
+}
+.box-plan-name{
+  font-weight: var(--fs-semibold);
+  font-size: 1.75rem;
+}
+.box-plan-price{
+  font-weight: var(--fs-bold);
+  font-size:3.75rem;
+}
+.box-plan-time{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.box-plan-features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:#f2eff8;
+  font-size: 1.25rem;
+  letter-spacing: 2;
+  gap: 1.5rem;
+  padding-bottom: -4rem;
+}
+
+.btn-plan{
+  font-weight: 600;
+  text-transform: uppercase;
+  border-color:transparent;
+  border-radius: 1.5rem;
+}
+.box-plan-list-item{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem
+}
