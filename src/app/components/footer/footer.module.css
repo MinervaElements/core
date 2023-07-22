@@ -1,0 +1,15 @@
+.footer{
+  width: var(--w-full);
+
+}
+.pRedes{
+  display: flex;
+  justify-content: center;
+}
+.redes{
+  display: flex;
+  gap:0.5rem;
+}
+.copy-p{
+  text-align: center;
+}
