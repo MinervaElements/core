@@ -14,4 +14,8 @@ export const HeaderRoutes =
       name: "Precios",
       link: "/precios",
     },
+    {
+      name: "FAQ",
+      link: "/faq",
+    },
   ];
