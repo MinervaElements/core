@@ -1,8 +1,10 @@
-import { Iroutes } from "@/types";
 import styles from "./navbar.module.css";
 import Link from "next/link";
+
+import { Iroutes } from "@/types";
+
 export const Navbar = ({ Routes }: { Routes: Iroutes[] }) => {
-    console.log(Routes);
+  console.log(Routes);
   return (
     <>
       <nav className={styles.nav}>
