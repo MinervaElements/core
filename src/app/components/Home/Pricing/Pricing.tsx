@@ -3,13 +3,14 @@ import { FcApproval,FcCancel } from "react-icons/fc";
 import { plansData } from "./data/plans";
 export default function Pricing() {
   return (
-    <section>
-      <div className="">
-        <h2>Planes</h2>
+    <section className={styles.container}>
+      <div className={styles["h-pricing"]}>
+        <h2 className={styles["h2-pricing"]}>Planes</h2>
+        <p className={styles["p-pricing"]}>Elige tu plan favorito</p>
       </div>
       <div className={styles["plans-container"]}>
       {
-        plansData.map((plan,i) => <div key={i} className={styles["plans-container"]}>
+        plansData.map((plan,i) => <div key={i}>
         <div className={styles["box-plans"]} style={{backgroundColor:plan.color}}>
           <div className={styles["box-pricing-info"]} style={{color:plan.color}}>
             <span className={styles["box-plan-name"]} > { plan.pricing.name} </span>
